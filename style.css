@@ -1,0 +1,18 @@
+img {
+    position: relative;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+@keyframes float {
+    0% {
+        left: 20px;
+        top: 20px;
+    }
+    100% {
+        left: 2000px;
+        top: 900px;
+    }
+}
